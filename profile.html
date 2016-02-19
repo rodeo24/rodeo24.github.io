@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Portforio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header id="top">
+	<h1><h1><a href="index.html"><img src="images/portforio.png" alt="portforio">
+</header>
+<nav>
+	<ul>
+		<li id="nav_profile"><a href="profile.html">自己紹介</a></li>
+		<li id="nav_skill"><a href="skill.html">作品集１</a></li>
+		<li id="nav_product"><a href="product.html">作品集２</a></li>
+		<li id="nav_hobby"><a href="hobby.html">趣味</a></li>		
+	</ul>
+</nav>
+<div id="breadcrumb">
+	<ul>	
+		<h1>自己紹介</h1>			
+	</ul>
+</div>
+<div id="contents">
+	<div id="main">
+		<article>
+			<h1></h1>				 
+				<li>氏名　園田正明</li>
+				<li>年齢　４６歳</li>
+				<li>出身　熊本県天草市</li>
+				<li>住んだ町　千葉５年　　熊本１３年　東京８年　神奈川５年　中華人民共和国１０年　福岡５年</li>
+				<li>仕事経験　管理、経理、営業等。　中国で１０年仕事してました。中国関連のことで何かあればご相談にのります！</li>
+				<li>趣味　ゴルフと旅行です。</li>
+				<li>近況　ダイエット中です。ここ半年は一か月平均400g減っています。あと4kgぐらい痩せたいです。</li>
+				<li>※下記画像はイメージです。</li>			
+			
+					
+		</article>
+	</div>
+	<div id="sub">
+		<aside>
+			<div class="bnr_inner">
+				<a href="">
+					<dl>
+						<dt></dt>
+						<dd></dd>
+					</dl>
+				</a>
+			</div>
+			<div class="bnr_inner">
+				<a href="contact.html">
+					<p><img src="" alt=""></p>
+				</a>
+			</div>
+		</aside>
+	</div>
+</div>
+<footer>	
+</footer>
+<script language="JavaScript"><!--
+myImageCnt = 2; 
+myImage = new Array( 
+"images/gazou1.jpg",
+"images/gazou2.jpg"
+);
+myNowCnt = 0; 
+function myChange(){ 
+if (myNowCnt == myImageCnt-1){ 
+myNowCnt=0; 
+}else{
+myNowCnt++;
+}
+document.myFormImg.src = myImage[myNowCnt];
+setTimeout( "myChange()" , 1000 ); 
+}
+// --></script>
+
+<img src="gazou1.jpg" name="myFormImg">
+<script language="JavaScript"><!--
+myChange(); 
+// --></script>
+</body>
+</html>
